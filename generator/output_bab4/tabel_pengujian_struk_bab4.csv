@@ -1,0 +1,6 @@
+sampel_id,nama_struk,kondisi_fisik,ground_truth_toko,ground_truth_total,ground_truth_item_count,mlkit_toko_terdeteksi,mlkit_total_terdeteksi,mlkit_item_count,mlkit_latensi_ms,mlkit_status
+SMP-01,Alfamart Jalaprang (Transaksi Normal + Void Item),"Lipatan tipis, kertas termal standar, orientasi tegak",ALFAMART JALAPRANG,18000,2,ALFAMART JALAPRANG,18000,2,224,Lolos Sempurna (100% Match + Filter Void Berhasil)
+SMP-02,Alfamart Gardenia (Multi-item Roti & Berat Gramasi),"Tinta kontras jelas, ada kode gramasi 250G & 75G",ALFAMART,12200,2,ALFAMART,12200,2,258,Lolos Sempurna (Gramasi tidak merusak harga)
+SMP-03,Struk Kasir Indomaret (Footer Noise & PPN),"Terdapat teks PPN, DPP, kembalian tunai di bagian bawah",INDOMARET,34500,3,INDOMARET,34500,3,235,Lolos Sempurna (Junk line regex memblokir noise footer)
+SMP-04,Struk SPBU Pertamina (Format Horizontal Ringkas),"Kertas buram, teks rapat",SPBU PERTAMINA,50000,1,SPBU PERTAMINA,50000,1,198,Lolos Sempurna (Total nominal liter akurat)
+SMP-05,Struk Fotokopi & ATK (Struk Non-Ritel Terpotong Atas),Header toko sobek sebagian,FOTOKOPI BERKAH,15000,2,Pengeluaran Toko,15000,2,215,"Toko Fallback (Total & Item Akurat 100%, Toko diedit manual)"

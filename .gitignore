@@ -1,0 +1,97 @@
+# ==============================================================================
+# Skripsi Repository .gitignore
+# ==============================================================================
+
+# Python Environments & Cache
+**/venv*/
+**/env*/
+**/ENV*/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Heavy Machine Learning Weights & Large Downloaded Models (>100MB / Multi-GB)
+generator/downloaded_donut_models/
+generator/donut_finetuned_indo/
+generator/donut_finetuned_indo_final/
+*.onnx
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.tflite
+*.h5
+
+# Flutter & Dart Build Artifacts
+flutter_application_1/build/
+**/build/
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+**/ios/Flutter/.last_build_id
+**/doc/api/
+
+# Android Studio / Gradle Build Artifacts
+.gradle/
+**/.gradle/
+**/android/local.properties
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/app/build/
+*.apk
+*.aab
+*.ap_
+
+# iOS Build Artifacts
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.framework
+
+# SQLite Databases & Local Dumps
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+app_phone*.db
+
+# Temporary Captures & Test Images
+jalaprang_photo_*.jpg
+latest_capture.jpg
+*.tmp
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.vscode/
+**/.vscode/
+.claude/
+
+# Old temporary folders
+receipt_scanner_app/
+receipt_scanner_app.zip
+
+# Thesis Archives & Personal Documents
+thesis_archive/
+naskah_skripsi/
+*.docx
+*.pdf
+

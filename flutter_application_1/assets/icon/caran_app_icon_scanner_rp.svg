@@ -1,0 +1,166 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient (Caran signature emerald teal) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#117A60"/>
+      <stop offset="50%" stop-color="#0F6E56"/>
+      <stop offset="100%" stop-color="#063D31"/>
+    </linearGradient>
+
+    <!-- Receipt Paper Gradient -->
+    <linearGradient id="paperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <!-- Rich 3D Gold Gradient for Rp Coin -->
+    <linearGradient id="goldGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="40%" stop-color="#F2C14E"/>
+      <stop offset="85%" stop-color="#D49B25"/>
+      <stop offset="100%" stop-color="#9A6B12"/>
+    </linearGradient>
+    <linearGradient id="goldRimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+
+    <!-- Glowing Laser Scanner Beam -->
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#34D399" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A7F3D0" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#34D399" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="receiptShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#021B16" flood-opacity="0.42"/>
+    </filter>
+    <filter id="coinShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#021B16" flood-opacity="0.5"/>
+    </filter>
+    <filter id="laserGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base (Full Bleed with standard corner radius for master icon) -->
+  <rect width="1024" height="1024" rx="230" fill="url(#bgGrad)"/>
+  
+  <!-- Ambient Radial Light Behind Receipt -->
+  <circle cx="512" cy="450" r="340" fill="#1D9E75" opacity="0.28"/>
+
+  <!-- Main Receipt Element (Centered inside safe zone: X=[320,680], Y=[200,720]) -->
+  <g filter="url(#receiptShadow)">
+    <!-- Receipt Body with crisp zig-zag perforation bottom -->
+    <path d="
+      M 326,206
+      C 326,192 338,180 352,180
+      L 672,180
+      C 686,180 698,192 698,206
+      L 698,710
+      L 668,686
+      L 638,710
+      L 608,686
+      L 578,710
+      L 548,686
+      L 518,710
+      L 488,686
+      L 458,710
+      L 428,686
+      L 398,710
+      L 368,686
+      L 338,710
+      L 326,700
+      Z
+    " fill="url(#paperGrad)"/>
+
+    <!-- Receipt Header Badge / Store Header -->
+    <rect x="366" y="226" width="120" height="18" rx="9" fill="#94A3B8" opacity="0.6"/>
+    <circle cx="656" cy="235" r="9" fill="#0F6E56" opacity="0.7"/>
+
+    <!-- Receipt Date Line -->
+    <rect x="366" y="260" width="180" height="10" rx="5" fill="#CBD5E1"/>
+
+    <!-- Divider Line -->
+    <line x1="366" y1="292" x2="658" y2="292" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Item Line 1 -->
+    <rect x="366" y="320" width="160" height="14" rx="7" fill="#64748B"/>
+    <rect x="578" y="320" width="80" height="14" rx="7" fill="#64748B"/>
+
+    <!-- Item Line 2 -->
+    <rect x="366" y="362" width="130" height="14" rx="7" fill="#94A3B8"/>
+    <rect x="598" y="362" width="60" height="14" rx="7" fill="#94A3B8"/>
+
+    <!-- Item Line 3 -->
+    <rect x="366" y="404" width="180" height="14" rx="7" fill="#94A3B8"/>
+    <rect x="588" y="404" width="70" height="14" rx="7" fill="#94A3B8"/>
+
+    <!-- Divider Dash for Totals -->
+    <line x1="366" y1="452" x2="658" y2="452" stroke="#CBD5E1" stroke-width="4" stroke-dasharray="8 8"/>
+
+    <!-- Grand Total Highlight Bar (Teal) -->
+    <rect x="366" y="482" width="110" height="20" rx="10" fill="#0F6E56"/>
+    <rect x="546" y="482" width="112" height="20" rx="10" fill="#0F6E56"/>
+
+    <!-- Receipt Barcode at bottom -->
+    <g fill="#94A3B8" opacity="0.55">
+      <rect x="366" y="580" width="5" height="44" rx="2"/>
+      <rect x="377" y="580" width="12" height="44" rx="2"/>
+      <rect x="395" y="580" width="8" height="44" rx="2"/>
+      <rect x="409" y="580" width="4" height="44" rx="2"/>
+      <rect x="419" y="580" width="14" height="44" rx="2"/>
+      <rect x="439" y="580" width="6" height="44" rx="2"/>
+      <rect x="451" y="580" width="10" height="44" rx="2"/>
+      <rect x="467" y="580" width="16" height="44" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Viewfinder Camera Scanner Corners (Optical Framing) -->
+  <g stroke="#34D399" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Top-Left -->
+    <path d="M 276,268 L 276,212 C 276,196 288,184 304,184 L 360,184"/>
+    <!-- Top-Right -->
+    <path d="M 748,268 L 748,212 C 748,196 736,184 720,184 L 664,184"/>
+    <!-- Bottom-Left -->
+    <path d="M 276,626 L 276,682 C 276,698 288,710 304,710 L 360,710"/>
+    <!-- Bottom-Right -->
+    <path d="M 748,626 L 748,682 C 748,698 736,710 720,710 L 664,710"/>
+  </g>
+
+  <!-- Laser Scan Beam with Bright Core & Glow -->
+  <g filter="url(#laserGlow)">
+    <rect x="240" y="382" width="544" height="7" rx="3.5" fill="url(#scanBeam)"/>
+    <ellipse cx="512" cy="385.5" rx="140" ry="14" fill="#A7F3D0" opacity="0.35"/>
+  </g>
+
+  <!-- 3D Golden Rupiah Coin Emblem (Overlap Bottom-Right) -->
+  <g filter="url(#coinShadow)" transform="translate(650, 630)">
+    <!-- Coin 3D Side/Rim -->
+    <circle cx="0" cy="15" r="132" fill="#8B6214"/>
+    <circle cx="0" cy="15" r="130" fill="#9A6B12"/>
+    
+    <!-- Coin Face -->
+    <circle cx="0" cy="0" r="130" fill="url(#goldGrad)" stroke="url(#goldRimGrad)" stroke-width="6"/>
+    
+    <!-- Inner Engraved Ring -->
+    <circle cx="0" cy="0" r="112" fill="none" stroke="#D49B25" stroke-width="4" stroke-dasharray="14 6"/>
+
+    <!-- Decorative Melati / Jasmine Flower Petals at Top of Coin Face -->
+    <g fill="#FFFFFF" stroke="#8A6D1A" stroke-width="2.5" opacity="0.95">
+      <ellipse cx="0" cy="-48" rx="8" ry="16"/>
+      <ellipse cx="0" cy="-48" rx="8" ry="16" transform="rotate(72 0 -34)"/>
+      <ellipse cx="0" cy="-48" rx="8" ry="16" transform="rotate(144 0 -34)"/>
+      <ellipse cx="0" cy="-48" rx="8" ry="16" transform="rotate(216 0 -34)"/>
+      <ellipse cx="0" cy="-48" rx="8" ry="16" transform="rotate(288 0 -34)"/>
+    </g>
+    <circle cx="0" cy="-34" r="5" fill="#E8A317"/>
+
+    <!-- Bold, Clean 'Rp' Typography -->
+    <text x="0" y="46" text-anchor="middle" font-family="system-ui, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="76" font-weight="900" fill="#5A3B02" letter-spacing="-2">Rp</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+name: receipt_scanner_app
+description: >
+  Aplikasi pencatatan pengeluaran pribadi secara offline
+  menggunakan on-device machine learning dengan ekstraksi struk belanja fisik.
+publish_to: 'none'
+version: 0.10.0-beta+20005
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Kamera & Pemilihan Gambar (Rumusan Masalah #1, BAB II.3)
+  camera: ^0.12.1
+  image_picker: ^1.1.2
+
+  # opencv_dart DINONAKTIFKAN SEMENTARA — lihat catatan di
+  # lib/screens/scanner_screen.dart dan README bagian "Menyalakan kembali
+  # deteksi kontur OpenCV". v1.x sudah end-of-life & mentok compileSdk 33 di
+  # Android; migrasi ke v2.x (native-assets) belum disiapkan di skeleton ini.
+  # opencv_dart: ^2.2.2
+
+  # Penyimpanan offline-first (Rumusan Masalah #3, BAB II.5)
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  # Dashboard grafik pengeluaran bulanan (BAB 4.2 poin 4)
+  fl_chart: ^0.68.0
+
+  intl: ^0.20.0
+  google_mlkit_text_recognition: ^0.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#0F6E56"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,176 @@
+{
+  "mychen_receipts": {
+    "name": "mychen76/invoice-and-receipts_donut_v1",
+    "inferences": [
+      {
+        "image": "Struk Alfamart Gardenia (User)",
+        "latency_ms": 1238,
+        "tokens": 92,
+        "output": "<s_receipt><s_store_name> ALFAMARTPERMATAGARDENIA</s_store_name><s_store_addr></s_store_addr><s_telephone> 081294660223</s_telephone><s_date> 20-11-2020</s_date><s_time> 12:29:58</s_time><s_subtotal></s_subtotal><s_tax></s_tax><s_total> 12,200 12,200</s_total><s_ignore></s_ignore><s_tips></s_tips><s_line_items><s_item_key></s_item_key><s_item_name> ALFAK.HJ250G</s_item_name><s_item_value> 9,600</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name> INDOMIEKOYA75G</s_item_name><s_item_value> 2,600</s_item_value><s_item_quantity> 1</s_item_quantity></s_line_items>"
+      },
+      {
+        "image": "Struk Alfamart Jalaprang (Proyek)",
+        "latency_ms": 872,
+        "tokens": 118,
+        "output": "<s_receipt><s_store_name></s_store_name><s_store_addr> JALAPRANG[JLP] ALFATOWERLT.12.ALAMSUTERA.TANGERANG</s_store_addr><s_telephone></s_telephone><s_date> 09-09-2026</s_date><s_time> 18:29:51</s_time><s_subtotal> 18.000</s_subtotal><s_tax></s_tax><s_total> 18.000</s_total><s_ignore> </s_ignore><s_tips></s_tips><s_line_items><s_item_key></s_item_key><s_item_name> SRTHRSPJ555G</s_item_name><s_item_value> 18.000</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name> KPBRANDING(M)</s_item_name><s_item_value> 200</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name> KPBRANDING(M)</s_item_name><s_item_value> 200</s_item_value><s_item_quantity> 1</s_item_quantity></s_line_items>"
+      },
+      {
+        "image": "Struk Internasional SROIE 1",
+        "latency_ms": 847,
+        "tokens": 108,
+        "output": "<s_receipt><s_store_name> BOOKTA.K(TAMANDAYA)SDNBHD</s_store_name><s_store_addr></s_store_addr><s_telephone></s_telephone><s_date> 25/12/2018</s_date><s_time></s_time><s_subtotal></s_subtotal><s_tax></s_tax><s_total> 9.00 9.00</s_total><s_ignore> </s_ignore><s_tips></s_tips><s_line_items><s_item_key></s_item_key><s_item_name> KFMODELINGCLAYKIDDYFISH</s_item_name><s_item_value> 9.00</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name></s_item_name><s_item_value> 9.00</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name></s_item_name><s_item_value> 0.00</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name></s_item_name><s_item_value></s_item_value><s_item_quantity></s_item_quantity><sep/><s_item_key></s_item_key><s_item_name></s_item_name><s_item_value></s_item_value><s_item_quantity></s_item_quantity></s_line_items>"
+      },
+      {
+        "image": "Struk Internasional SROIE 2",
+        "latency_ms": 923,
+        "tokens": 136,
+        "output": "<s_receipt><s_store_name> INDAHGIFT&HOMEDECO</s_store_name><s_store_addr> 27,JALANDEDA 13, TAMANJOHORJAYA,</s_store_addr><s_telephone> 07-3507405</s_telephone><s_date> 19/10/2018</s_date><s_time> 20:49:59</s_time><s_subtotal> 60.31</s_subtotal><s_tax></s_tax><s_total> 60.31</s_total><s_ignore></s_ignore><s_tips></s_tips><s_line_items><s_item_key></s_item_key><s_item_name> ST-PRIVILEGECARD/GDINDAH</s_item_name><s_item_value> 10.00</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name> GF-TABLELAMP/STITCH</s_item_name><s_item_value> 55.90</s_item_value><s_item_quantity> 1</s_item_quantity><sep/><s_item_key></s_item_key><s_item_name> 62483</s_item_name><s_item_value></s_item_value><s_item_quantity></s_item_quantity><sep/><s_item_key> Desc/Item</s_item_key><s_item_name></s_item_name><s_item_value></s_item_value><s_item_quantity></s_item_quantity></s_line_items>"
+      }
+    ]
+  },
+  "cord_v2": {
+    "name": "naver-clova-ix/donut-base-finetuned-cord-v2",
+    "inferences": [
+      {
+        "image": "Struk Alfamart Gardenia (User)",
+        "latency_ms": 1166,
+        "tokens": 139,
+        "output": "<s_cord-v2><s_menu><s_nm> ALFAMART PERMATA GARDENIA</s_nm><s_num> 081294660223</s_num><s_unitprice> NPWP : -</s_unitprice><s_cnt> -</s_cnt><s_discountprice> -</s_discountprice><s_price> -</s_price><sep/><s_nm> Bon CE35-203-2011VM24 Kasir : HERTI HE</s_nm><s_num> ALFA K.HJ 250G</s_nm><s_unitprice> 9,600</s_unitprice><s_cnt> 1</s_cnt><s_price> 9,600</s_price><sep/><s_nm> INDOMIE KOYA75G</s_nm><s_unitprice> 2,600</s_unitprice><s_cnt> 1</s_cnt><s_price> 2,600</s_price></s_menu><s_sub_total><s_subtotal_price> 12,200</s_subtotal_price><s_etc> 0<sep/> 1.109)</s_etc></s_sub_total><s_total><s_total_price> 12,200</s_total_price><s_cashprice> 29:58</s_cashprice><s_changeprice> 0817111234</s_changeprice><s_menuqty_cnt> 2</s_menuqty_cnt></s_total>"
+      },
+      {
+        "image": "Struk Alfamart Jalaprang (Proyek)",
+        "latency_ms": 1265,
+        "tokens": 231,
+        "output": "<s_cord-v2><s_menu><s_nm> ALFAMART JALAPRANG /</s_nm><s_num> 081294657636</s_num><s_price> JALAPRANG [JLP]</s_price><sep/><s_nm> ALFA TOWER LT. 12. ALAM SUTERA. TANGGANG</s_nm><s_num> NPUP : 01 336.238. 9-054.000</s_num><sep/><s_nm> JL JALAPRANG NO. 20 RT 03 RU CISEUNYING</s_nm><s_num> Bon B101-313-9097836</s_num><s_price> AGHI</s_price><sep/><s_nm> SR TAR SP J555G</s_nm><s_unitprice> 18,000</s_unitprice><s_cnt> 1</s_cnt><s_price> 18,000</s_price><sep/><s_nm> KP BRANDING (M)</s_nm><s_unitprice> 200</s_unitprice><s_cnt> 1</s_cnt><s_price> 200</s_price><sep/><s_nm> KP BRANDING (M)</s_nm><s_unitprice> 200</s_unitprice><s_cnt> -1</s_cnt><s_price> -200</s_price></s_menu><s_sub_total><s_subtotal_price> 18,000</s_subtotal_price><s_tax_price> 1,783</s_tax_price><s_etc> 100.000<sep/> 82.000<sep/> 16,216 PPN:</s_cnt><s_price> 1,783</s_price></s_menu><s_sub_total><s_subtotal_price> 09-09-202026</s_num><s_price> 0.206.7.<unk></s_price><sep/><s_nm> KRITIKISARAN: 1500959</s_subtotal_price><s_service_price> 081110640888</s_changeprice></s_total>"
+      },
+      {
+        "image": "Struk Internasional SROIE 1",
+        "latency_ms": 1112,
+        "tokens": 193,
+        "output": "<s_cord-v2><s_menu><s_nm> BOOK TA LK (TAMAN DAYA) SDN BHD</s_nm><s_unitprice> 789-117-W</s_unitprice><s_cnt> NO.5:</s_cnt><s_price> 55,57 & 59, JALAN SAGU 18,</s_price></s_menu><s_sub_total><s_discount_price> 81100 JOHOR BAHRU,</s_discount_price></s_sub_total><s_total><s_total_price> 81100</s_total_price><s_cashprice> JOHOR.</s_cashprice><s_changeprice> 25/12/2018 8:13:39 PM</s_nm><sep/><s_nm> Cashier : MANIS</s_nm><sep/><s_nm> CASH BILL</s_nm></s_sub><sep/><s_nm> CODE/DESC</s_nm><s_unitprice> PRICE Disc</s_nm><s_unitprice> RM</s_nm><s_unitprice> AMOUNI</s_nm><s_unitprice> RM</s_unitprice><s_cnt> QTY</s_cnt><s_discountprice> 0.00</s_discountprice><s_price> RM</s_price><sep/><s_nm> KF MODELING CLAY KIDDY FISH</s_nm><s_unitprice> 9.000</s_unitprice><s_cnt> 1 PC</s_cnt><s_discountprice> 0.00</s_discountprice><s_price> 9.00</s_price></s_menu><s_sub_total><s_subtotal_price> 9.00</s_subtotal_price><s_discount_price> 0.00</s_discount_price><s_tax_price> 9.00</s_tax_price></s_sub_total><s_total><s_total_price> 9.00</s_total_price><s_cashprice> 100</s_cashprice><s_changeprice> 9.00</s_changeprice><s_creditcardprice> 9.00</s_creditcardprice><s_menuqty_cnt> 1.00</s_menuqty_cnt></s_total>"
+      },
+      {
+        "image": "Struk Internasional SROIE 2",
+        "latency_ms": 1256,
+        "tokens": 247,
+        "output": "<s_cord-v2><s_menu><s_nm> INDAH GIFT & HOME DECO</s_nm><s_unitprice> 27,JALAN DEDAP 13,</s_nm><sep/><s_nm> TAMAN JOHOR JAYA,</s_nm><s_unitprice> 81100 JOHOR BAHRU, JOHOR.</s_nm><s_unitprice> 07-3558160</s_unitprice><s_cnt> RECEIPT</s_nm><s_num> 19/10/2018</s_num><s_unitprice> 20:49:59</s_unitprice><s_cnt> 59</s_cnt><s_price> /0531</s_price><sep/><s_nm> Cashier: CN Location/SP: 05</s_nm><s_num> MB: M026588</s_num><s_unitprice> 050100035279</s_unitprice><s_cnt> 01</s_cnt><s_price> 050100035279</s_price><sep/><s_nm> Dom No: 01</s_nm><s_num> ST-PRIVILEGE CARD/GD INDAH</s_nm><s_unitprice> 55.90</s_unitprice><s_cnt> 1</s_cnt><s_discountprice> -5.59</s_discountprice><s_price> 10.00</s_price><sep/><s_nm> GF-TABLE LAMP/STITCH <i></s_nm><s_unitprice> 55.90</s_unitprice><s_cnt> 1</s_cnt><s_discountprice> -5.59</s_discountprice><s_price> 55.90</s_price></s_menu><s_sub_total><s_subtotal_price> 60.31</s_subtotal_price><s_discount_price> 60.30</s_discount_price><s_tax_price> 10.00</s_tax_price><s_etc> RM 60.30<sep/> RM 70.30</s_etc></s_sub_total><s_total><s_total_price> 10.00</s_total_price><s_cashprice> 1.00</s_cashprice><s_changeprice> And Retail.</s_changeprice><s_creditcardprice> Goods Sold Are Not Returnable</s_creditcardprice></s_total>"
+      }
+    ]
+  },
+  "sroie_unstructured": {
+    "name": "unstructuredio/donut-base-sroie",
+    "inferences": [
+      {
+        "image": "Struk Alfamart Gardenia (User)",
+        "latency_ms": 459,
+        "tokens": 63,
+        "output": "<s><s><s_total> 12,200</s_total><s_date> 20-11-2020</s_date><s_company> ALFAMART PERMATA GARDENIA</s_company><s_address> NOWP : - BOND CE35-203-2011VM24 KASIR : HERTI HE ALFA K.HJ 250G 1 9,600 9,600</s_address>"
+      },
+      {
+        "image": "Struk Alfamart Jalaprang (Proyek)",
+        "latency_ms": 610,
+        "tokens": 90,
+        "output": "<s><s><s_total> 82,000</s_total><s_date> 09-09-2026</s_date><s_company> ALFAMART JRLABRANG / 081294557G36 JALANBRANG</s_company><s_address> ALFA TOWER LT.12, ALAM SUTERA. TANGBRANG NPUP : 01 ,336.238. 9-054,000 JL JALANBRANG NO. 20 RT Q3, RU CIBEUNYING</s_address>"
+      },
+      {
+        "image": "Struk Internasional SROIE 1",
+        "latency_ms": 428,
+        "tokens": 65,
+        "output": "<s><s><s_total> 9.00</s_total><s_date> 25/12/2018</s_date><s_company> BOOK TA .K (TAMAN DAYA) SDN BHD</s_company><s_address> NO.53 55,57 & 59, JALAN SAGU 18, TAMAN DAYA, 81100 JOHOR BAHRU, JOHOR.</s_address>"
+      },
+      {
+        "image": "Struk Internasional SROIE 2",
+        "latency_ms": 367,
+        "tokens": 55,
+        "output": "<s><s><s_total> 60.30</s_total><s_date> 19/10/2018</s_date><s_company> INDAH GIFT & HOME DECO</s_company><s_address> 27,JALAN DEDAP 13, TAMAN JOHOR JAYA, 81100 JOHOR BAHRU,JOHOR.</s_address>"
+      }
+    ]
+  },
+  "docvqa": {
+    "name": "naver-clova-ix/donut-base-finetuned-docvqa",
+    "inferences": [
+      {
+        "image": "Struk Alfamart Gardenia (User)",
+        "latency_ms": 2049,
+        "tokens": 15,
+        "output": "<s_docvqa><s_question> what is the total amount?</s_question><s_answer> 12,200</s_answer>"
+      },
+      {
+        "image": "Struk Alfamart Jalaprang (Proyek)",
+        "latency_ms": 563,
+        "tokens": 15,
+        "output": "<s_docvqa><s_question> what is the total amount?</s_question><s_answer> 18,000</s_answer>"
+      },
+      {
+        "image": "Struk Internasional SROIE 1",
+        "latency_ms": 575,
+        "tokens": 13,
+        "output": "<s_docvqa><s_question> what is the total amount?</s_question><s_answer> 9.00</s_answer>"
+      },
+      {
+        "image": "Struk Internasional SROIE 2",
+        "latency_ms": 690,
+        "tokens": 15,
+        "output": "<s_docvqa><s_question> what is the total amount?</s_question><s_answer> 60.31</s_answer>"
+      }
+    ]
+  },
+  "tobe_invoices": {
+    "name": "to-be/donut-base-finetuned-invoices",
+    "inferences": [
+      {
+        "image": "Struk Alfamart Gardenia (User)",
+        "latency_ms": 882,
+        "tokens": 101,
+        "output": "<s> 20232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323</s_InvoiceNumber><s_NetAmount1> 12200.00</s_NetAmount1><s_TaxAmount1> 12200.00</s_TaxAmount1>"
+      },
+      {
+        "image": "Struk Alfamart Jalaprang (Proyek)",
+        "latency_ms": 1933,
+        "tokens": 256,
+        "output": "<s><s><s><s> 2023232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323"
+      },
+      {
+        "image": "Struk Internasional SROIE 1",
+        "latency_ms": 1904,
+        "tokens": 256,
+        "output": "<s><s><s><s><s> 2.232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323"
+      },
+      {
+        "image": "Struk Internasional SROIE 2",
+        "latency_ms": 1744,
+        "tokens": 256,
+        "output": "<s> 3023232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323"
+      }
+    ]
+  },
+  "user_finetuned": {
+    "name": "donut_finetuned_indo_final (Lokal Anda)",
+    "inferences": [
+      {
+        "image": "Struk Alfamart Gardenia (User)",
+        "latency_ms": 1535,
+        "tokens": 256,
+        "output": "<s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2>"
+      },
+      {
+        "image": "Struk Alfamart Jalaprang (Proyek)",
+        "latency_ms": 1456,
+        "tokens": 256,
+        "output": "<s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2>"
+      },
+      {
+        "image": "Struk Internasional SROIE 1",
+        "latency_ms": 1664,
+        "tokens": 256,
+        "output": "<s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2>"
+      },
+      {
+        "image": "Struk Internasional SROIE 2",
+        "latency_ms": 1754,
+        "tokens": 256,
+        "output": "<s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2><s_cord-v2>"
+      }
+    ]
+  }
+}
