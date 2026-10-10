@@ -73,7 +73,7 @@ Berbeda dengan solusi pemindai komersial yang mengunggah foto struk ke peladen a
 ## 📁 Struktur Repositori
 
 ```
-skripsi/
+caran/
 ├── docs/                                    # Dokumentasi arsitektur & rekayasa teknis
 │   ├── ARCHITECTURE_AND_CODE_TRACING.md     # Alur end-to-end tracing kode sistem
 │   ├── ALGORITHM_AND_MATHEMATICAL_MODEL.md  # Teori matematika & spatial clustering
